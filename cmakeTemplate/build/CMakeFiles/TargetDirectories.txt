@@ -1,0 +1,3 @@
+/home/lee/Cpp/template_utils/cmakeTemplate/build/CMakeFiles/rebuild_cache.dir
+/home/lee/Cpp/template_utils/cmakeTemplate/build/CMakeFiles/edit_cache.dir
+/home/lee/Cpp/template_utils/cmakeTemplate/build/CMakeFiles/my_projects.dir

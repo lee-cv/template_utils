@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/lee/Cpp/template_utils/cmakeTemplate/build",
+  "command": "/usr/bin/g++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/lib/x86_64-linux-gnu/cmake/opencv4/include -I/home/lee/Cpp/template_utils/cmakeTemplate/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2 -isystem /usr/include/opencv4    -g   -std=gnu++17 -o CMakeFiles/my_projects.dir/src/main.cpp.o -c /home/lee/Cpp/template_utils/cmakeTemplate/src/main.cpp",
+  "file": "/home/lee/Cpp/template_utils/cmakeTemplate/src/main.cpp"
+},
+{
+  "directory": "/home/lee/Cpp/template_utils/cmakeTemplate/build",
+  "command": "/usr/bin/g++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/lib/x86_64-linux-gnu/cmake/opencv4/include -I/home/lee/Cpp/template_utils/cmakeTemplate/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2 -isystem /usr/include/opencv4    -g   -std=gnu++17 -o CMakeFiles/my_projects.dir/src/temp.cpp.o -c /home/lee/Cpp/template_utils/cmakeTemplate/src/temp.cpp",
+  "file": "/home/lee/Cpp/template_utils/cmakeTemplate/src/temp.cpp"
+}
+]
