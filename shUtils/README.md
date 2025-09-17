@@ -10,7 +10,11 @@ export ROS_MASTER_URI=http://10.42.0.1:11311
 export ROS_IP=10.42.0.36
 ```
 
-## 配置生成SSH-Key
+## 配置生成SSH-Key和git推送
 ```sh
 ssh-keygen -t ed25519 -C "lijianxin231@gmail.com"
+
+git config --global user.name "lee-cv"
+git config --global user.email "lijianxin231@gmail.com"
+git config --global --list
 ```
