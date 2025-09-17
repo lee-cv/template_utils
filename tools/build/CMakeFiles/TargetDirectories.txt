@@ -1,0 +1,4 @@
+/home/lee/CppAndPyPro/toolChain/cpp/build/CMakeFiles/rebuild_cache.dir
+/home/lee/CppAndPyPro/toolChain/cpp/build/CMakeFiles/edit_cache.dir
+/home/lee/CppAndPyPro/toolChain/cpp/build/CMakeFiles/plyToImg.dir
+/home/lee/CppAndPyPro/toolChain/cpp/build/CMakeFiles/main.dir
