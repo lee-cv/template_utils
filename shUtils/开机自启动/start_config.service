@@ -1,0 +1,15 @@
+[Unit]
+Description=PV System ROS Startup Service
+After=network.target
+
+[Service]
+User=usr_name
+WorkingDirectory=/home/marvsmart/semi_module_robot_ws # 工作路径
+ExecStart=/bin/bash -c "/home/marvsmart/semi_module_robot_ws/scripts/auto_start/start_semi_module_robot.sh" #自启动脚本
+Restart=on-failure
+RestartSec=5
+Environment=ROS_MASTER_URI=http://localhost:11311
+Environment=ROS_HOSTNAME=localhost
+
+[Install]
+WantedBy=multi-user.target

@@ -1,4 +1,7 @@
 ## 一.安装CUDA
+```sh
+
+```
 
 ### 0.安装Ubuntu内核和显卡驱动
 
@@ -31,6 +34,20 @@ export PATH=${CUDA_HOME}/bin:${PATH}
 
 source ~/.bashrc
 nvcc -V
+
+git clone https://github.com/NVIDIA/cuda-samples.git
+cd cuda-samples/Samples/1_Utilities/deviceQuery/
+make
+./deviceQuery
 ```
 
-## 2. 安装cuDnn
+## 2. 安装cuDnn(https://developer.nvidia.com/cudnn)
+```sh
+sudo apt install zlib1g
+sudo dpkg -i cudnn-local-repo-ubuntu2004-8.6.0.163_1.0-1_amd64.deb
+
+```
+
+
+
+### 查找显卡的架构版本(https://developer.nvidia.com/cuda-gpus)

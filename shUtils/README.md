@@ -29,3 +29,33 @@ sudo apt install python3-venv
 python3 -m venv venv_name
 source venv_name/bin/activate
 ```
+
+## 配置工控机热点
+```sh
+sudo nmcli device wifi hotspot ifname wlan0 con-name MyHostspot ssid semirobot password 12345678
+nmcli dev wifi show-password
+sudo nmcli connection down MyHostspot && sudo nmcli connection up MyHostspot
+```
+
+## 查看ssh的状态
+```sh
+sudo systemctl status ssh
+sudo systemctl start ssh
+sudo systemctl enable ssh
+
+```
+
+## 开机自启动配置
+```sh
+chmod +x auto_start_config.sh
+sudo cp start_config.service /etc/systemd/system/
+
+sudo systemctl daemon-reload
+sudo systemctl enable start_config.service
+sudo systemctl disable start_config.service
+sudo systemctl start start_config.service
+sudo systemctl stop start_config.service
+systemctl status start_config.service
+```
+
+
