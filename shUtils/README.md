@@ -1,4 +1,7 @@
 # 对Ubuntu一些常见的问题指令和一些sh脚本进行收集
+```sh
+
+```
 
 ## 配置本地Rviz打开远程ssh的话题
 ```sh
@@ -17,4 +20,12 @@ ssh-keygen -t ed25519 -C "lijianxin231@gmail.com"
 git config --global user.name "lee-cv"
 git config --global user.email "lijianxin231@gmail.com"
 git config --global --list
+```
+
+## 用venv配置python环境
+```sh
+sudo apt update
+sudo apt install python3-venv
+python3 -m venv venv_name
+source venv_name/bin/activate
 ```
