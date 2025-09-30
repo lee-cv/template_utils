@@ -1,0 +1,15 @@
+[Unit]
+Description=PV System ROS Startup Service
+After=network.target
+
+[Service]
+User=industio
+WorkingDirectory=/home/industio/semi_module_robot_ws
+ExecStart=/bin/bash -c "/home/industio/semi_module_robot_ws/scripts/auto_start/start_semi_module_robot.sh"
+Restart=on-failure
+RestartSec=5
+Environment=ROS_MASTER_URI=http://localhost:11311
+Environment=ROS_HOSTNAME=localhost
+
+[Install]
+WantedBy=multi-user.target

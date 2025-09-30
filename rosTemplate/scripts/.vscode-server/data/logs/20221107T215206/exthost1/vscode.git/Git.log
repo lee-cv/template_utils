@@ -1,0 +1,4 @@
+2022-11-07 21:52:26.614 [info] [main] 日志级别: Info
+2022-11-07 21:52:26.615 [info] [main] 正在验证在以下位置找到的 git: "git"
+2022-11-07 21:52:26.615 [warning] Unable to find git. Error: spawn git ENOENT
+2022-11-07 21:52:26.615 [warning] [main] Failed to create model: Error: Git installation not found.
