@@ -1,5 +1,0 @@
-Listening on 127.0.0.1:43633
-[2022-11-07 22:39:02] info Disposed of connection to running server.
-[2022-11-07 22:39:02] info Checking /home/marvsmart/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/log.txt and /home/marvsmart/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/pid.txt for a running server...
-[2022-11-07 22:39:02] info Found running server (pid=1726)
-[2022-11-07 22:40:22] info Disposed of connection to running server.
