@@ -23,11 +23,11 @@ include_directories("/usr/include/eigen3")
 
 
 # obsensor sdk
-set(OrbbecSDK_ROOT_DIR /home/lee/Orbbec/OrbbecSDK_OpenSource)
-set(OrbbecSDK_LIBRARY_DIRS ${OrbbecSDK_ROOT_DIR}/lib)
-set(OrbbecSDK_INCLUDE_DIR ${OrbbecSDK_ROOT_DIR}/include)
-include_directories(${OrbbecSDK_INCLUDE_DIR})
-link_directories(${OrbbecSDK_LIBRARY_DIRS})
+# set(OrbbecSDK_ROOT_DIR /home/lee/Orbbec/OrbbecSDK_OpenSource)
+# set(OrbbecSDK_LIBRARY_DIRS ${OrbbecSDK_ROOT_DIR}/lib)
+# set(OrbbecSDK_INCLUDE_DIR ${OrbbecSDK_ROOT_DIR}/include)
+# include_directories(${OrbbecSDK_INCLUDE_DIR})
+# link_directories(${OrbbecSDK_LIBRARY_DIRS})
 
 # find_package(rs_driver REQUIRED)
 # include_directories(${rs_driver_INCLUDE_DIRS})
@@ -38,8 +38,8 @@ link_directories(${OrbbecSDK_LIBRARY_DIRS})
 #     ${PROJECT_SOURCE_DIR}/utils
 # )
 
-add_executable(main main.cpp)
-target_link_libraries(main OrbbecSDK ${rs_driver_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBS})
+# add_executable(main main.cpp)
+# target_link_libraries(main OrbbecSDK ${rs_driver_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBS})
 
 add_executable(plyToImg plyToImg.cpp)
-target_link_libraries(plyToImg OrbbecSDK ${rs_driver_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBS})
+target_link_libraries(plyToImg ${rs_driver_LIBRARIES} ${PCL_LIBRARIES} ${OpenCV_LIBS})

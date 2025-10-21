@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/plyToImg.dir/plyToImg.cpp.o"
+  "CMakeFiles/plyToImg.dir/plyToImg.cpp.o.d"
   "plyToImg"
   "plyToImg.pdb"
 )

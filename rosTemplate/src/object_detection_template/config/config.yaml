@@ -1,0 +1,19 @@
+# ROS topic configuration
+camera:
+  image_topic: "/camera/color/image_raw"
+
+# Model configuration
+model:
+  type: "yolo"                # 可选: yolo / traditional / custom
+  path: "/home/user/models/yolov8.onnx"
+
+# Image processing parameters
+image:
+  resize_width: 640
+  resize_height: 480
+  threshold: 0.5
+
+# System settings
+system:
+  enable_debug: true
+  visualize_result: true
