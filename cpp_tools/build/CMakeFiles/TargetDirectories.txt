@@ -1,0 +1,3 @@
+/home/lee/PyPro/template_utils/tools/build/CMakeFiles/main.dir
+/home/lee/PyPro/template_utils/tools/build/CMakeFiles/edit_cache.dir
+/home/lee/PyPro/template_utils/tools/build/CMakeFiles/rebuild_cache.dir

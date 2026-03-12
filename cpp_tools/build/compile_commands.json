@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/lee/PyPro/template_utils/tools/build",
+  "command": "/usr/bin/g++ -DDISABLE_PCAP -I/usr/include/opencv4 -I/usr/include/pcl-1.12 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -g -o CMakeFiles/main.dir/main.cpp.o -c /home/lee/PyPro/template_utils/tools/main.cpp",
+  "file": "/home/lee/PyPro/template_utils/tools/main.cpp"
+}
+]
