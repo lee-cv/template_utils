@@ -3,6 +3,17 @@
 
 ```
 
+## ROS1的包转为ROS2的包
+```sh 在python环境下运行：
+rosbags-convert --src pvgrab1.bag --dst new_test
+```
+
+
+## 终端扫描IP
+```sh
+seq 1 254 | xargs -P 50 -I{} sh -c 'ping -c 1 -W 1 192.168.60.{} >/dev/null && echo 192.168.60.{}'
+```
+
 ## 配置本地Rviz打开远程ssh的话题
 ```sh
 sudo nano /etc/hosts : 
